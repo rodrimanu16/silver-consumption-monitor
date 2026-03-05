@@ -1,0 +1,21 @@
+command:
+  - "python"
+  - "-m"
+  - "uvicorn"
+  - "app:app"
+  - "--host"
+  - "0.0.0.0"
+  - "--port"
+  - "8000"
+
+env:
+  - name: GENIE_SPACE_ID
+    value: YOUR_GENIE_SPACE_ID
+  - name: PGHOST
+    valueFrom: database
+  - name: PGPORT
+    valueFrom: database
+  - name: PGDATABASE
+    valueFrom: database
+  - name: PGUSER
+    valueFrom: database
