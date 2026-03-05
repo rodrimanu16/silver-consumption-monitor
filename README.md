@@ -2,7 +2,7 @@
 
 A real-time monitoring, analytics, and AI-optimization dashboard for silver consumption on mirror production lines — built entirely on Databricks.
 
-> **Demo context:** Saint-Gobain ASK mirror line · 4.5M m²/year · 2–8mm glass
+> **Demo context:** ASK mirror line · 4.5M m²/year · 2–8mm glass
 
 ---
 
